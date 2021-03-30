@@ -4,15 +4,61 @@
     <projectFile>Nails-Salon/Nails-Salon.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9f2b70-4fc0-45cd-91e1-1bfab486e104" name="Default Changelist" comment="" />
+    <list default="true" id="8d9f2b70-4fc0-45cd-91e1-1bfab486e104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nails-Salon/wwwroot/css/site2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Nails-Salon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Nails-Salon.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Nails-Salon.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Nails-Salon.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/wwwroot/css/123.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/wwwroot/css/site.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/.gitignore" />
+      <option value="$PROJECT_DIR$/Nails-Salon/wwwroot/css/site.css" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Shared/_LoginPartial.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qTubokJIo7ErGqlMclAf8D3slo" />
@@ -23,7 +69,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -68,14 +116,28 @@
       <option name="presentableId" value="Default" />
       <updated>1617115977719</updated>
       <workItem from="1617115985497" duration="233000" />
+      <workItem from="1617116367618" duration="1372000" />
+      <workItem from="1617117968199" duration="1895000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

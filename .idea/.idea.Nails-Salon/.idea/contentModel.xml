@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Prog\Projects\Nails\Nails-Salon" t="IncludeFlat">
+    <e p="C:\Prog\Projects\Nails\Nails_Salon" t="IncludeFlat">
       <e p="Nails-Salon" t="IncludeRecursive">
         <e p="app.db" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -59,8 +59,35 @@
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="site.css" t="Include" />
+            <e p="site2.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="html" t="Include">
+            <e p="main.html" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="-5_1.jpg" t="Include" />
+            <e p="002.png" t="Include" />
+            <e p="1.jpg" t="Include" />
+            <e p="1553155334_za-najkraschoyu-cinoyu-tm-kodi-professional-baza-i-top.-telefonujte-sejchi-700x500404506.jpg" t="Include" />
+            <e p="1569439416_ovalnyj-manikjur-45.jpg" t="Include" />
+            <e p="2-26.jpg" t="Include" />
+            <e p="8b125875f4f0c0dc510319ce7d81541f.jpg" t="Include" />
+            <e p="depositphotos_11537076-stock-photo-receptionist-and-client-in-beauty.jpg" t="Include" />
+            <e p="Free_Credit_Card_Mockup_2.png" t="Include" />
+            <e p="header.png" t="Include" />
+            <e p="images.jpg" t="Include" />
+            <e p="img_top.jpg" t="Include" />
+            <e p="krasivyj_manikyur-6.png" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="matovyj-manikyur-2019-2020.jpg" t="Include" />
+            <e p="p_20171022_112646-e1511016981843-1140x912.jpg" t="Include" />
+            <e p="rwerewr.png" t="Include" />
+            <e p="siniy-manikyur-2020-idei-modnogo-dizayna_93703n3q.jpg" t="Include" />
+            <e p="sterilizator-dlya-manikyurnyh-instrumentov-vidy-primenenie-i-pravila-uhoda.jpg" t="Include" />
+            <e p="test.png" t="Include" />
+            <e p="unnamed.jpg" t="Include" />
+          </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
           </e>
@@ -123,7 +150,7 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\peron\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\peron\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Nails-Salon.1888679252.00" t="ExcludeRecursive" />
+    <e p="C:\Users\peron\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Nails-Salon.-1229887390.00" t="ExcludeRecursive" />
     <e p="C:\Users\peron\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\peron\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
   </component>

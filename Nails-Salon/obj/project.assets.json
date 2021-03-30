@@ -1460,11 +1460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Prog\\Projects\\Nails\\Nails-Salon\\Nails-Salon\\Nails-Salon.csproj",
+      "projectUniqueName": "C:\\Prog\\Projects\\Nails\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
       "projectName": "Nails-Salon",
-      "projectPath": "C:\\Prog\\Projects\\Nails\\Nails-Salon\\Nails-Salon\\Nails-Salon.csproj",
+      "projectPath": "C:\\Prog\\Projects\\Nails\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
       "packagesPath": "C:\\Users\\peron\\.nuget\\packages\\",
-      "outputPath": "C:\\Prog\\Projects\\Nails\\Nails-Salon\\Nails-Salon\\obj\\",
+      "outputPath": "C:\\Prog\\Projects\\Nails\\Nails_Salon\\Nails-Salon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet"
