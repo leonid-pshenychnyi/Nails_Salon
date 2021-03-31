@@ -62,6 +62,10 @@
             <e p="site2.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="font" t="Include">
+            <e p="diamond.otf" t="Include" />
+            <e p="fulbo.otf" t="Include" />
+          </e>
           <e p="html" t="Include">
             <e p="main.html" t="Include" />
           </e>
@@ -78,8 +82,10 @@
             <e p="header.png" t="Include" />
             <e p="images.jpg" t="Include" />
             <e p="img_top.jpg" t="Include" />
+            <e p="korzina.png" t="Include" />
             <e p="krasivyj_manikyur-6.png" t="Include" />
             <e p="logo.png" t="Include" />
+            <e p="man.png" t="Include" />
             <e p="matovyj-manikyur-2019-2020.jpg" t="Include" />
             <e p="p_20171022_112646-e1511016981843-1140x912.jpg" t="Include" />
             <e p="rwerewr.png" t="Include" />

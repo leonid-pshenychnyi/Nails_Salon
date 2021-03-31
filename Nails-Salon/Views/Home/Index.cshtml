@@ -3,12 +3,29 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <div style="width: 500px; height: 500px; background-color: #0f6674"></div>
-    <div style="width: 500px; height: 500px; background-color: #0f6674"></div>
-    <div style="width: 500px; height: 500px; background-color: #0f6674"></div>
-    <div style="width: 500px; height: 500px; background-color: #0f6674"></div>
-    <div style="width: 500px; height: 500px; background-color: #0f6674"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <p style="font-size: 40px !important;" class="text-left text-white">ЧТО ДЛЯ НАС МАНИКЮР?</p>
+            <p class="text-white text-left">Красивый маникюр - это то, что просто необходимо каждой женщине, ведь ухоженные руки одно из самых основных вещей во внешнем виде. 
+                Вы можете быть одетой в спортивную одежду, и быть без макияжа, но руки должны всегда привлекать внимание своей красотой. Предложений по маникюру сейчас достаточно много, салоны красоты предлагают большое количество услуг, в которые входят различные покрытия и наращивания ногтей. Но найти хорошего мастера по маникюру не так 
+                уж и легко. Ведь хочется, чтобы именно ваши ручки были индивидуальны.</p>
+        </div>
+        <div class="col">
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Example label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+              </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Another label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col" style="width: 500px; height: 500px; background-color: transparent"></div>
 </div>

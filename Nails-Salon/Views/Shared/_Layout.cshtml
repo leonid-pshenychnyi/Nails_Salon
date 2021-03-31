@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css"/>
 </head>
+
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-primary bg-dark border-bottom box-shadow mb-3" style="border-color: #f47994 !important;">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-primary bg-dark border-bottom box-shadow mb-3" style="border-color: #f47994 !important; border-width: 3px !important; background-color: #000000 !important;">
         <div class="container">
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                <img src="images/logo.png" alt="logo">
+                <img  class="img-fluid" src="images/logo.png" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -21,11 +22,40 @@
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <li style="margin: 10px !important; margin-top: 20px !important;" class="nav-item">
+                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">
+                            <h4>
+                                Услуги и цены
+                            </h4>
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    <li style="margin: 10px !important; margin-top: 20px !important;" class="nav-item">
+                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <h4>
+                                Контакты
+                            </h4>
+                        </a>
+                    </li>
+                    <li style="margin: 10px !important; margin-top: 20px !important;" class="nav-item">
+                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <h4>
+                                Соц. сети
+                            </h4>
+                        </a>
+                    </li>
+                    <li style="margin: 10px !important; margin-top: 20px !important;" class="nav-item">
+                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <h4>
+                                Сувенирная продукция
+                            </h4>
+                        </a>
+                    </li>
+                    <li style="margin: 10px !important; margin-top: 20px !important;" class="nav-item">
+                        <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <h4>
+                                Карта клиента
+                            </h4>
+                        </a>
                     </li>
                 </ul>
                 <partial name="_LoginPartial"/>

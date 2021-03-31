@@ -1,4 +1,19 @@
-body {
+﻿body {
     background-image: url("../images/test.png");
     background-attachment: fixed;
 }
+@font-face {
+    font-family: "DefaultFont";
+    src: url("../font/diamond.otf");
+}
+* {
+    font-family: "DefaultFont", serif;
+}
+@font-face {
+    font-family: "Fulbo";
+    src: url("../font/fulbo.otf");
+}
+p {
+    font-family: "Fulbo" !important;
+}
+
