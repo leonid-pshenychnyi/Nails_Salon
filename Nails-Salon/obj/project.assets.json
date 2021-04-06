@@ -1454,20 +1454,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\peron\\.nuget\\packages\\": {}
+    "C:\\Users\\bredu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Prog\\Projects\\Nails\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
+      "projectUniqueName": "C:\\Users\\bredu\\Desktop\\Nails_Salon-main\\huila\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
       "projectName": "Nails-Salon",
-      "projectPath": "C:\\Prog\\Projects\\Nails\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
-      "packagesPath": "C:\\Users\\peron\\.nuget\\packages\\",
-      "outputPath": "C:\\Prog\\Projects\\Nails\\Nails_Salon\\Nails-Salon\\obj\\",
+      "projectPath": "C:\\Users\\bredu\\Desktop\\Nails_Salon-main\\huila\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
+      "packagesPath": "C:\\Users\\bredu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bredu\\Desktop\\Nails_Salon-main\\huila\\Nails_Salon\\Nails-Salon\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\peron\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\bredu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

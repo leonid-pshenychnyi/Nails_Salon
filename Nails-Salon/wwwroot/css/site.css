@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-image: url("../images/test.png");
     background-attachment: fixed;
 }
@@ -16,4 +16,6 @@
 p {
     font-family: "Fulbo" !important;
 }
-
+.box{
+    margin-left: -50px !important;
+}
