@@ -69,14 +69,40 @@
     </main>
 </div>
 
-<footer class="border-top bg-primary bg-dark footer text-muted">
-    <div class="container text-center">
-        &copy; 2021 - Nails_Salon - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </div>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white" style="background-color: black !important;">
+  <!-- Grid container -->
+  <div class="row">
+      <div class="col">
+          <img style="width: 150px; margin-top: 40px; margin-left: 200px" src="images/logo.png">
+      </div>
+      <div style="margin-top: 50px" class="col-3">
+          <h2>Связь с нами</h2>
+          <p>+38(095) 321 67 401<br>
+              +38(068) 321 67 401</p>
+      </div>
+      <div style="margin-top: 50px" class="col-3">
+          <h2>Наш адрес:</h2>
+          <p>г. Харьков, ул. Пушкина 34<br>
+              Пн. - Сб. 10:00 - 21:00</p>
+      </div>
+      <div class="col-3">
+      </div>
+  </div>
+  <hr style="border: 1px; solid:#333333 !important; opacity: unset !important; margin-top: 30px;"/>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Разработка и поддержка сайта: Bredun Dmytro</a>
+  </div>
+  <!-- Copyright -->
 </footer>
+<!-- Footer -->
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
-</html>
+</html> 
