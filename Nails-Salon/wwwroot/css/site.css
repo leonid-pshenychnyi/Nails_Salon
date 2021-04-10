@@ -1,4 +1,8 @@
-﻿body {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
     background-image: url("../images/test.png");
     background-attachment: fixed;
 }
@@ -15,5 +19,14 @@
 }
 p {
     font-family: "Fulbo" !important;
+}
+.box{
+    margin-left: -50px !important;
+}
+li > a > h4:hover {
+    color: #000000;
+}
+ul > li :hover{
+    background-color: #f47994;
 }
 

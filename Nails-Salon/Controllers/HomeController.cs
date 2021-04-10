@@ -23,11 +23,21 @@ namespace Nails_Salon.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contacts()
         {
             return View();
         }
 
+        public IActionResult ServicesAndPrices()
+        {
+            return View();
+        }
+
+        public IActionResult ClientsCard()
+        {
+            return View();
+        }
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
