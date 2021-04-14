@@ -1,6 +1,7 @@
 @{
     ViewData["Title"] = "Home Page";
     Layout = "_Layout";
+    <link rel="stylesheet" href="/css/ClockAnimated.css"/>
 }
 
 <div class="container">
@@ -26,7 +27,34 @@
                 <input style="background: transparent !important; font-size: 20px " type="text" class="text-white form-control" id="formGroupExampleInput2" placeholder="Ваш телефон">
             </div>
             <div>
-                <button style="margin-top: 20px; border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Записаться на приём</button>
+                <button style="margin-top: 20px; border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Записаться на приём</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            @*<div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            </div>*@
+                            <div class="modal-body bg-dark text-white">
+                                <p style="text-align: center !important;" class="text-white">Ща свяжемся хуила</p>
+                                <p class="container" style="justify-content: center; align-items: center;">
+                                    <div style="margin-left: 200px !important;" class="clock">
+                                        <div style="width: 90px !important; height: 90px !important;" class="wrapper rotate-1">
+                                            <div class="inner-1"></div>
+                                        </div>
+                                        <div style="width: 90px !important; height: 90px !important;" class="wrapper rotate-2">
+                                            <div style="width: 35px !important;" class="inner-2"></div>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="modal-footer bg-dark">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </form>
     </div>
@@ -172,8 +200,8 @@
     <p style="font-family: DefaultFont, serif !important; margin-top: -10px;font-size: 20px" class="text-white">Подписывайтесь на наш блог в социальной сети Instagram</p>
     <div class="row justify-content-md-center">
         <div class="col col-lg-7">
-                    <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
-                </div>
+            <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
+        </div>
     </div>
 </div>
 
@@ -211,8 +239,8 @@
     <p style="font-family: DefaultFont, serif !important; margin-top: -10px;font-size: 20px" class="text-white">N.A.I.L.S. - мы ваше хорошее настроение!</p>
     <div class="row justify-content-md-center">
         <div class="col col-lg-7">
-                    <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
-                </div>
+            <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
+        </div>
     </div>
 </div>
 <div class="row">
@@ -247,12 +275,16 @@
 <div class="row">
     <div class="col-2">
         <h2 style="font-family: Fulbo" class="text-white">Адрес</h2>
-        <p style="font-family: DefaultFont !important; font-size: 20px" class="text-white">г. Харьков,<br> 
-            ул. Пушкина 34</p>
+        <p style="font-family: DefaultFont !important; font-size: 20px" class="text-white">
+            г. Харьков,<br>
+            ул. Пушкина 34
+        </p>
         <br>
         <h2 style="font-family: Fulbo" class="text-white">Телефон</h2>
-        <p style="font-family: DefaultFont !important;font-size: 20px" class="text-white">+38 (050) 921-20-30<br>
-            +38 (097) 997-97-66</p>
+        <p style="font-family: DefaultFont !important;font-size: 20px" class="text-white">
+            +38 (050) 921-20-30<br>
+            +38 (097) 997-97-66
+        </p>
         <br>
         <h2 style="font-family: Fulbo" class="text-white">Instagram</h2>
         <p style="font-family: DefaultFont !important;font-size: 20px" class="text-white">https://www.instagram.com/</p>

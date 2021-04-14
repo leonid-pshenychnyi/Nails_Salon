@@ -424,3 +424,10 @@ C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Nails-Salo
 C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\ref\Nails-Salon.dll
 C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Nails-Salon.pdb
 C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Nails-Salon.genruntimeconfig.cache
+C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\obj\Debug\net5.0\Nails-Salon.dll
+C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\obj\Debug\net5.0\ref\Nails-Salon.dll
+C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\obj\Debug\net5.0\Nails-Salon.pdb
+C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Razor\Pages\Account\Index.cshtml.g.cs
+C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Razor\Pages\Account\Login.cshtml.g.cs
+C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\bredu\Desktop\huila\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
