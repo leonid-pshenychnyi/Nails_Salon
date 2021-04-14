@@ -6,6 +6,7 @@
 }
 
 ul.leaders li:before {
+    margin-top: 6px;
     float: left;
     width: 0;
     white-space: nowrap;
@@ -19,4 +20,11 @@ ul.leaders span:first-child {
 ul.leaders span + span {
     float: right;
     padding-left: 0.33em;
+}
+
+li{
+    margin-top: 20px;
+}
+span{
+    font-size: 27px;
 }

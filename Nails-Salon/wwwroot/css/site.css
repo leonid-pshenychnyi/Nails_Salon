@@ -28,5 +28,10 @@ li > a > h4:hover {
 }
 ul > li :hover{
     background-color: #f47994;
+    border-radius:15%;
 }
-
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
