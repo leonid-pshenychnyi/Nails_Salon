@@ -1,0 +1,190 @@
+﻿@model List<Product>
+
+@{
+    ViewBag.Title = "a";
+    Layout = "_Layout";
+}
+
+<div class="text-center container align-content-center cent" style="margin-top: -50px !important;">
+    <h1 style="font-family: Fulbo, serif !important; margin-top: 100px" class="text-white">Сувенирная продукция</h1>
+    <p style="font-family: DefaultFont, serif !important; margin-top: -10px;font-size: 20px" class="text-white">Мелочи котрые украсят вашу жизнь</p>
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-7">
+            <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var prod in @Model.Where(w => w.Type == ProductTypes.Type.Other))
+        {
+            <div class="col-3">
+                <div style="background-color: black; width: 255px; height: 420px">
+                    <img src=@prod.ImgUrl class="center-block" alt="" style="padding-top:5px">
+                    <h1 style="text-align: center; font-size: 25px; color: white;">
+                        @prod.Name<br>
+                        @prod.Size
+                    </h1>
+                    <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">@prod.Price грн</h1>
+                    @* <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button> *@
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=@prod.Id>Open modal for @("productModal" + prod.Id)</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <form id="modalForm" method="post">
+                                    <div class="modal-body">
+
+                                        <div class="mb-3">
+                                            <div class="form-outline">
+                                                <input type="number" id="productCount" name="prodCount" class="form-control"/>
+                                                <label class="form-label" for="productCount">Quantity</label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="addrText" class="col-form-label">Address:</label>
+                                            <textarea class="form-control" name="address" id="addrText"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Send message</button>
+                                    </div>
+                                    <input type="text" name="productId" id="productId" hidden>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <h1 style="font-family: Fulbo, serif !important; margin-top: 40px; text-align: center" class="text-white">Лаки</h1>
+        <br>
+
+        @foreach (var prod in @Model.Where(w => w.Type == ProductTypes.Type.Polish))
+        {
+            <div class="col-3">
+                <div style="background-color: black; width: 255px; height: 420px">
+                    <img src=@prod.ImgUrl class="center-block" alt="" style="padding-top:5px">
+                    <h1 style="text-align: center; font-size: 25px; color: white;">
+                        @prod.Name<br>
+                        @prod.Size
+                    </h1>
+                    <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">@prod.Price грн</h1>
+                    <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+                </div>
+            </div>
+        }
+        <script >
+        var exampleModal = document.getElementById('exampleModal')
+        exampleModal.addEventListener('show.bs.modal', function (event) {
+          var button = event.relatedTarget
+          var recipient = button.getAttribute('data-bs-whatever')
+          
+          var ProdIdInput = exampleModal.querySelector('#productId')
+          ProdIdInput.setAttribute("value", recipient);
+        })
+        </script>
+
+        @*<div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/mag.png" class="center-block" alt="" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+
+        </div>
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/pin.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/cup.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/stick.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>
+
+        <h1 style="font-family: Fulbo, serif !important; margin-top: 40px; text-align: center" class="text-white">Лаки</h1>
+        <br>
+
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/mag.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/mag.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/mag.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>
+        <div class="col-3">
+            <div style="background-color: black; width: 255px; height: 420px">
+                <img src="/images/mag.png" class="center-block" style="padding-top:5px">
+                <h1 style="text-align: center; font-size: 25px; color: white;">
+                    Магниты на холодос<br>
+                    50х50 мм
+                </h1>
+                <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">50грн</h1>
+                <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+            </div>
+        </div>*@
+    </div>
+</div>

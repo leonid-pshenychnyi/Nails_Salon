@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model Nails_Salon.Models.ViewModels.RegisterViewModel
+
+@{
+    ViewBag.Title = "a";
+    Layout = "_Layout";
+}
+
+<div class="text-center container align-content-center cent">
+    <h1 style="font-family: Fulbo, serif !important; margin-top: 100px" class="text-white">Регистрация</h1>
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-7">
+            <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
+        </div>
+    </div>
+</div>
+
+<div class="container col-4">
+    <div style="margin-top: 50px">
+        <form method="post" asp-controller="Account" asp-action="Register">
+            <div class="text-white" asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label class="text-white" for="EmailInput">Почта</label>
+                <input asp-for="Email" style="background: transparent !important; font-size: 20px " type="text" class="text-white form-control" id="EmailInput" placeholder="Почта">
+                <span class="text-white" asp-validation-for="Email"></span>
+            </div>
+            <div class="form-group">
+                <label class="text-white" for="PhoneInput">Телефон</label>
+                <input asp-for="PhoneNumber" style="background: transparent !important; font-size: 20px " type="text" class="text-white form-control" id="PhoneInput" placeholder="Телефон">
+                <span class="text-white" asp-validation-for="PhoneNumber"></span>
+            </div>
+            <div class="form-group">
+                <label class="text-white" for="PasswordInput">Пароль</label>
+                <input asp-for="Password" style="background: transparent !important; font-size: 20px " type="password" class="text-white form-control" id="PasswordInput" placeholder="Пароль">
+                <span class="text-white" asp-validation-for="Password"></span>
+            </div>
+            <div class="form-group">
+                <label class="text-white" for="PasswordRepeatInput">Повтор пароля</label>
+                <input asp-for="PasswordConfirm" style="background: transparent !important; font-size: 20px " type="password" class="text-white form-control" id="PasswordRepeatInput" placeholder="Повтор пароля">
+                <span class="text-white" asp-validation-for="PasswordConfirm"></span>
+            </div>
+            <div>
+                <button style="margin-top: 20px; border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="Submit" class="container btn btn-dark btn-sm">Зарегестрировать</button>
+            </div>
+        </form>
+        <p style="margin-top: 120px">
+    </div>
+</div>

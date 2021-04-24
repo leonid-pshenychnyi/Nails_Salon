@@ -1,0 +1,30 @@
+﻿ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none
+}
+
+ul.leaders li:before {
+    margin-top: 6px;
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+}
+
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+}
+
+li{
+    margin-top: 20px;
+}
+span{
+    font-size: 27px;
+}

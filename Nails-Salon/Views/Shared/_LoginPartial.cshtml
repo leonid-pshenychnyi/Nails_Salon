@@ -1,0 +1,16 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a style="margin-top: 7px !important;" class="nav-link text-light" asp-area="Identity" asp-page="/Account/Register">
+            <img src="/images/korzina.png" alt="cart">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a style="margin-top: 11px !important;" class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="PersonalArea">
+            <img src="/images/man.png" alt="account">
+        </a>
+    </li>
+</ul>

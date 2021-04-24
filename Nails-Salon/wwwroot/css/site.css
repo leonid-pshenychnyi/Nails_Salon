@@ -1,0 +1,37 @@
+﻿html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-image: url("../images/test.png");
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: "DefaultFont";
+    src: url("../font/diamond.otf");
+}
+* {
+    font-family: "DefaultFont", serif;
+}
+@font-face {
+    font-family: "Fulbo";
+    src: url("../font/fulbo.otf");
+}
+p {
+    font-family: "Fulbo" !important;
+}
+.box{
+    margin-left: -50px !important;
+}
+li > a > h4:hover {
+    color: #000000;
+}
+ul > li :hover{
+    background-color: #f47994;
+    border-radius:15%;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
