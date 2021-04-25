@@ -544,3 +544,4 @@ C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\bin\Deb
 C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\peron\floobits\share\DimoniDEX\Nails_Salon-main\NS3\Nails-Salon\obj\Debug\net5.0\Razor\Views\Home\PurchasesList.cshtml.g.cs

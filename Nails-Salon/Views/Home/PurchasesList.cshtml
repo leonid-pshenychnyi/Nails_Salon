@@ -1,0 +1,42 @@
+﻿@model List<Purchase>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center container align-content-center cent" style="margin-top: -50px !important;">
+    <h1 style="font-family: Fulbo, serif !important; margin-top: 100px" class="text-white">СПИСОК КУПЛЕННЫХ ТОВАРОВ</h1>
+    <p style="font-family: DefaultFont, serif !important; margin-top: -10px;font-size: 20px" class="text-white">Купите ещё</p>
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-7">
+            <hr style="border: 2px solid #f47994 !important; opacity: unset !important; margin-top: -10px;"/>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <table class="table table-dark table-hover">
+      <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Address</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+      <tbody>
+      @foreach (var purchase in @Model)
+      {
+          <tr>
+              <th scope="row">@purchase.Id</th>
+              <td>@purchase.ProductName</td>
+              <td>@purchase.Qy</td>
+              <td>@purchase.Address</td>
+              <td>@purchase.PurchaseDate</td>
+          </tr>
+      }
+      </tbody>
+    </table>
+</div>

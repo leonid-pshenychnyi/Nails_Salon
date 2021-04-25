@@ -74,6 +74,7 @@
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
             <e p="Products.cshtml" t="Include" />
+            <e p="PurchasesList.cshtml" t="Include" />
             <e p="ServicesAndPrices.cshtml" t="Include" />
             <e p="Social.cshtml" t="Include" />
           </e>

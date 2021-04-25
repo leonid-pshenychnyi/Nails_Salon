@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Nails_Salon.Models;
@@ -47,12 +49,45 @@ namespace Nails_Salon.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Products()
         {
             var products = db.Products.ToList();
             
             return View(products);
             // return View();
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult Products(int prodCount, string address, int productId)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var productName = db.Products.FirstOrDefault(w => w.Id == productId).Name;
+            var purchase = new Purchase
+            {
+                Address = address,
+                Qy = prodCount,
+                ProductId = productId,
+                PurchaseDate = DateTime.UtcNow,
+                UserId = Guid.Parse(userId),
+                ProductName = productName
+            };
+            db.Purchases.Add(purchase);
+            db.SaveChanges();
+            
+            return RedirectToAction("ClientsCard");
+        }
+
+        [Authorize]
+        [HttpGet]
+        public IActionResult PurchasesList()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var purchasesList = db.Purchases.Where(w => w.UserId == Guid.Parse(userId)).ToList();
+            
+            return View(purchasesList);
         }
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

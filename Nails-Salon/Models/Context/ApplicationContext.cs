@@ -11,5 +11,6 @@ namespace Nails_Salon.Models.Context
             Database.EnsureCreated();
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
     }
 }

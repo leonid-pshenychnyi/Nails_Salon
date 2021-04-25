@@ -29,7 +29,7 @@
                     <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">@prod.Price грн</h1>
                     @* <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button> *@
 
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=@prod.Id>Open modal for @("productModal" + prod.Id)</button>
+                    <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=@prod.Id>КУПИТЬ</button>
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -78,7 +78,40 @@
                         @prod.Size
                     </h1>
                     <h1 style="font-family: Fulbo; font-size: 30px; text-align: center;color: white;">@prod.Price грн</h1>
-                    <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button>
+                    @* <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm">Купи</button> *@
+
+                    <button style=" border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" type="button" class="container btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=@prod.Id>КУПИТЬ</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <form id="modalForm" method="post">
+                                    <div class="modal-body">
+
+                                        <div class="mb-3">
+                                            <div class="form-outline">
+                                                <input type="number" id="productCount" name="prodCount" class="form-control"/>
+                                                <label class="form-label" for="productCount">Quantity</label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="addrText" class="col-form-label">Address:</label>
+                                            <textarea class="form-control" name="address" id="addrText"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Send message</button>
+                                    </div>
+                                    <input type="text" name="productId" id="productId" hidden>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         }
