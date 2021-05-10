@@ -17,26 +17,35 @@
 
 <div class="container">
     <table class="table table-dark table-hover">
-      <thead>
-          <tr>
+        <thead>
+        <tr>
             <th scope="col">#</th>
             <th scope="col">Product Name</th>
             <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
             <th scope="col">Address</th>
             <th scope="col">Date</th>
-          </tr>
+            <th scope="col">Delete</th>
+        </tr>
         </thead>
-      <tbody>
-      @foreach (var purchase in @Model)
-      {
-          <tr>
-              <th scope="row">@purchase.Id</th>
-              <td>@purchase.ProductName</td>
-              <td>@purchase.Qy</td>
-              <td>@purchase.Address</td>
-              <td>@purchase.PurchaseDate</td>
-          </tr>
-      }
-      </tbody>
+        <tbody>
+        @foreach (var purchase in @Model)
+        {
+            <tr>
+                <th scope="row">@purchase.Id</th>
+                <td>@purchase.ProductName</td>
+                <td>@purchase.Qy
+                <td>@(purchase.Qy * ((List<Product>) TempData["Products"]).First(w => w.Id == purchase.ProductId).Price)</td>
+                <td>@purchase.Address</td>
+                <td>@purchase.PurchaseDate</td>
+                <td>
+                    @using (Html.BeginForm("DeletePurchase", "Home", routeValues: new {prodId = purchase.Id.ToString()}, FormMethod.Post))
+                    {
+                        <button class="btn-danger" type="submit">Удолить</button>
+                    }
+                </td>
+            </tr>
+        }
+        </tbody>
     </table>
 </div>

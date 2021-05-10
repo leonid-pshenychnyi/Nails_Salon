@@ -87,7 +87,18 @@ namespace Nails_Salon.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var purchasesList = db.Purchases.Where(w => w.UserId == Guid.Parse(userId)).ToList();
             
+            TempData["Products"] = db.Products.ToList();
             return View(purchasesList);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult DeletePurchase(string prodId)
+        {
+            db.Purchases.Remove(db.Purchases.FirstOrDefault(w => w.Id == Convert.ToInt32(prodId))!);
+            db.SaveChanges();
+            
+            return RedirectToAction("PurchasesList");
         }
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

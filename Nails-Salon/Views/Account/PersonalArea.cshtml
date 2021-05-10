@@ -1,4 +1,4 @@
-﻿@model Object
+﻿@model User?
 
 @{
     Layout = "_Layout";
@@ -33,23 +33,30 @@
                         <p style="text-align: left" class="text-white">
                             Почта:
                         </p>
-                        <p style="text-align: left" class="text-white">
-                            Карта клиента:
-                        </p>
+                        @* <p style="text-align: left" class="text-white"> *@
+                        @*     Карта клиента: *@
+                        @* </p> *@
                     </div>
                     <div class="col-8">
-                        <p class="text-white">
-                            Панас
-                        </p>
-                        <p class="text-white">
-                            88005553535
-                        </p>
-                        <p class="text-white">
-                            ииииииии.gmail.com
-                        </p>
-                        <p class="text-white">
-                            123456
-                        </p>
+                        <span>
+                            <p class="text-white">
+                                @Model.UserName
+                            </p>
+                            <p class="text-white">
+                                @Model.PhoneNumber
+                            </p>
+                            <p class="text-white">
+                                @Model.Email
+                            </p>
+                            @* <p class="text-white"> *@
+                            @*     @model.ca *@
+                            @* </p> *@
+                        </span>
+                        <span>
+                            <a onclick="changeShow()" href="#">
+                                <img src="/images/edit-xxl.png" alt="" style="width: 50px; height: 50px;">
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -138,9 +145,25 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <div>
+            <form style="display: none" method="post" asp-controller="Account" id="changeForm" asp-action="ChangePersonalData">
+                <input style="background: transparent !important; font-size: 20px" type="text" class="text-white form-control" id="nameChanger" name="nameChanger" placeholder="Ваше имя">
+                <input style="background: transparent !important; font-size: 20px" type="text" class="text-white form-control" id="phoneChanger" name="phoneChanger" placeholder="Ваш телефон">
+                <input style="background: transparent !important; font-size: 20px" type="text" class="text-white form-control" id="emailChanger" name="emailChanger" placeholder="Ваше почта">
+
+                <input style="margin-top: 20px; border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" class="text-white container btn btn-dark btn-sm" type="submit" value="Поменять херню"/>
+            </form>
+        </div>
 
         <form method="post" asp-controller="Account" asp-action="Logout">
-            <input style="margin-top: 20px; border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" class="text-white container btn btn-dark btn-sm" type="submit" value="Выход"/>
+            <input style="margin-top: 20px; border-color: #f47994 !important; border-radius: 5px !important; border-width: 3px !important; background-color: #000000 !important; font-family: Fulbo, serif; font-size: 20px;" class="text-white container btn btn-dark btn-sm" type="submit" value="Выход с аккаунта нахуй"/>
         </form>
     </div>
 </div>
+<script >
+    function changeShow() {
+      $("#changeForm").show();
+    }
+</script>

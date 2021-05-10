@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Microsoft SQL Server (jTds) -">
-  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.20">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.21">
     <root id="1">
       <ServerVersion>13.0.4001</ServerVersion>
       <PermissionsCheckSum>25719000802</PermissionsCheckSum>
-      <Grants>0|root||1|connect sql|G
-0|root||2|view any database|G
-0|root||101|view any definition|G
-0|root||102|authenticate server|G
-0|root||102|view any definition|G
-0|root||102|view server state|G
-0|root||103|authenticate server|G
-0|root||105|control server|G
-0|root||105|view any definition|G
-0|root||106|view any definition|G
-0|root||256|connect sql|G
-0|root||257|connect sql|G
-0|root||257|view any definition|G
-0|root||257|view server state|G
-0|root||258|connect sql|G
+      <Grants>-9223372036854775808|||-9223372036854775808||G
 2|||2|connect|G
 3|||2|connect|G
 4|||2|connect|G
 5|||2|connect|G
-</Grants>
+0|root||102|authenticate server|G
+0|root||103|authenticate server|G
+0|root||1|connect sql|G
+0|root||256|connect sql|G
+0|root||257|connect sql|G
+0|root||258|connect sql|G
+0|root||105|control server|G
+0|root||2|view any database|G
+0|root||101|view any definition|G
+0|root||102|view any definition|G
+0|root||105|view any definition|G
+0|root||106|view any definition|G
+0|root||257|view any definition|G
+0|root||102|view server state|G
+0|root||257|view server state|G</Grants>
     </root>
     <database id="2" parent="1" name="BOOKSTORE_2974cf9270e64598a41802b03f33692f">
       <ObjectId>19</ObjectId>
@@ -83,14 +83,14 @@
     <database id="20" parent="1" name="master">
       <ObjectId>1</ObjectId>
       <PermissionsCheckSum>7998723517</PermissionsCheckSum>
-      <Grants>1|database||0|view any column encryption key definition|G
-1|database||0|view any column master key definition|G
+      <Grants>-9223372036854775808|||-9223372036854775808||G
 1|database||1|connect|G
 1|database||2|connect|G
 1|database||5|connect|G
 1|database||6|connect|G
 1|database||6|execute|G
-</Grants>
+1|database||0|view any column encryption key definition|G
+1|database||0|view any column master key definition|G</Grants>
       <Current>1</Current>
       <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
       <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@DESKTOP-O840JJ8\LOCALDB#DA121F78</Fingerprint>
@@ -272,7 +272,8 @@
     <schema id="59" parent="8" name="sys">
       <ObjectId>4</ObjectId>
       <PermissionsCheckSum>345923280554</PermissionsCheckSum>
-      <Grants>-582|||0|select|G
+      <Grants>-9223372036854775808|||-9223372036854775808||G
+-582|||0|select|G
 -580|||0|select|G
 -572|||0|select|G
 -571|||0|select|G
@@ -434,8 +435,7 @@
 -104|||0|select|G
 -103|||0|select|G
 -102|||0|select|G
--101|||0|select|G
-</Grants>
+-101|||0|select|G</Grants>
     </schema>
     <schema id="60" parent="20" name="INFORMATION_SCHEMA">
       <ObjectId>3</ObjectId>
@@ -470,12 +470,12 @@
     <schema id="70" parent="20" name="dbo">
       <ObjectId>1</ObjectId>
       <PermissionsCheckSum>7539505048</PermissionsCheckSum>
-      <Grants>117575457|||0|select|G
+      <Grants>-9223372036854775808|||-9223372036854775808||G
+117575457|||0|select|G
 133575514|||0|select|G
 149575571|||0|select|G
 1467152272|||0|select|G
-1483152329|||0|select|G
-</Grants>
+1483152329|||0|select|G</Grants>
       <IntrospectionTimestamp>2021-04-24.19:00:46.560</IntrospectionTimestamp>
       <Current>1</Current>
     </schema>

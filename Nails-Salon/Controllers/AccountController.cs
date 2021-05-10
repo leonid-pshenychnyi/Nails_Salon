@@ -1,8 +1,12 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Diagnostics.Internal;
 using Nails_Salon.Models;
+using Nails_Salon.Models.Context;
 using Nails_Salon.Models.ViewModels;
 
 namespace Nails_Salon.Controllers
@@ -11,11 +15,13 @@ namespace Nails_Salon.Controllers
     {
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
+        private ApplicationContext db;
         
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, ApplicationContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            db = context;
         }
         
         [HttpGet]
@@ -28,7 +34,7 @@ namespace Nails_Salon.Controllers
         {
             if(ModelState.IsValid)
             {
-                User user = new User { Email = model.Email, UserName = model.Email};
+                User user = new User { Email = model.Email, UserName = "", PhoneNumber = model.PhoneNumber};
                 // добавляем пользователя
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
@@ -91,9 +97,36 @@ namespace Nails_Salon.Controllers
         }
         
         [Authorize]
+        [HttpGet]
         public IActionResult PersonalArea()
         {
-            return View();
+            var model = db.Users.FirstOrDefault(w => w.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+            
+            return View(model);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult ChangePersonalData(string nameChanger, string phoneChanger, string emailChanger)
+        {
+            var model = db.Users.FirstOrDefault(w => w.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+            if (!string.IsNullOrEmpty(nameChanger))
+            {
+                model.UserName = nameChanger;
+            }
+            if (!string.IsNullOrEmpty(phoneChanger))
+            {
+                model.PhoneNumber = phoneChanger;
+            }
+            if (!string.IsNullOrEmpty(emailChanger))
+            {
+                model.Email = emailChanger;
+            }
+
+            db.Update(model);
+            db.SaveChanges();
+            
+            return RedirectToAction("PersonalArea");
         }
     }
 }

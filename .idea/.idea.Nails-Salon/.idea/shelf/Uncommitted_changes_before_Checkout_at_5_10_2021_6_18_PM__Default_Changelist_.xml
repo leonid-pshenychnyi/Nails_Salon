@@ -1,0 +1,24 @@
+﻿<changelist name="Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM_[Default_Changelist]" date="1620659941363" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 5/10/2021 6:18 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Nails-Salon/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Nails-Salon/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM_[Default_Changelist]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Nails-Salon/obj/Debug/net5.0/Nails-Salon.assets.cache" />
+    <option name="AFTER_PATH" value="Nails-Salon/obj/Debug/net5.0/Nails-Salon.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM_[Default_Changelist]/Nails-Salon.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/Nails-Salon/v16/.suo" />
+    <option name="AFTER_PATH" value=".vs/Nails-Salon/v16/.suo" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM_[Default_Changelist]/.suo" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Nails-Salon/obj/Debug/net5.0/Nails-Salon.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Nails-Salon/obj/Debug/net5.0/Nails-Salon.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM_[Default_Changelist]/Nails-Salon.csprojAssemblyReference.cache" />
+  </binary>
+</changelist>

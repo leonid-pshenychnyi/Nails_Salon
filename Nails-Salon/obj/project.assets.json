@@ -6493,25 +6493,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\peron\\.nuget\\packages\\": {},
+    "C:\\Users\\pshen\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peron\\floobits\\share\\DimoniDEX\\Nails_Salon-main\\NS3\\Nails-Salon\\Nails-Salon.csproj",
+      "projectUniqueName": "C:\\Dev\\Nails\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
       "projectName": "Nails-Salon",
-      "projectPath": "C:\\Users\\peron\\floobits\\share\\DimoniDEX\\Nails_Salon-main\\NS3\\Nails-Salon\\Nails-Salon.csproj",
-      "packagesPath": "C:\\Users\\peron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peron\\floobits\\share\\DimoniDEX\\Nails_Salon-main\\NS3\\Nails-Salon\\obj\\",
+      "projectPath": "C:\\Dev\\Nails\\Nails_Salon\\Nails-Salon\\Nails-Salon.csproj",
+      "packagesPath": "C:\\Users\\pshen\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\Nails\\Nails_Salon\\Nails-Salon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
-        "C:\\Users\\peron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pshen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -6582,7 +6582,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
