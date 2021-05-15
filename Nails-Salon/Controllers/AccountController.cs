@@ -34,12 +34,10 @@ namespace Nails_Salon.Controllers
         {
             if(ModelState.IsValid)
             {
-                User user = new User { Email = model.Email, UserName = "", PhoneNumber = model.PhoneNumber};
-                // добавляем пользователя
+                User user = new User { Email = model.Email, UserName = model.Email, PhoneNumber = model.PhoneNumber};
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    // установка куки
                     await _signInManager.SignInAsync(user, false);
                     return RedirectToAction("Index", "Home");
                 }

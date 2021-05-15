@@ -77,7 +77,7 @@ namespace Nails_Salon.Controllers
             db.Purchases.Add(purchase);
             db.SaveChanges();
             
-            return RedirectToAction("ClientsCard");
+            return RedirectToAction("Products");
         }
 
         [Authorize]
@@ -87,8 +87,21 @@ namespace Nails_Salon.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var purchasesList = db.Purchases.Where(w => w.UserId == Guid.Parse(userId)).ToList();
             
-            TempData["Products"] = db.Products.ToList();
-            return View(purchasesList);
+            if (purchasesList.Any())
+            {
+                TempData["Products"] = db.Products.ToList();
+                return View(purchasesList);
+            }
+            else
+            {
+                return RedirectToAction("NoPurchases");
+            }
+        }
+
+        [HttpGet]
+        public IActionResult NoPurchases()
+        {
+            return View();
         }
 
         [Authorize]

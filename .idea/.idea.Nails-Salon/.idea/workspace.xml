@@ -5,65 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9f2b70-4fc0-45cd-91e1-1bfab486e104" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources/7b76efbc-77c6-46df-8450-135252fdb8b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources/7b76efbc-77c6-46df-8450-135252fdb8b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/riderModule.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nails-Salon/Views/Home/NoPurchases.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nails-Salon/wwwroot/css/PrettyIndexIcons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources/7b76efbc-77c6-46df-8450-135252fdb8b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/dataSources/7b76efbc-77c6-46df-8450-135252fdb8b2/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2021_6_18_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Nails-Salon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Nails-Salon/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Nails-Salon/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Controllers/AccountController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Account/PersonalArea.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Account/PersonalArea.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Home/PurchasesList.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Home/PurchasesList.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Home/ServicesAndPrices.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Home/ServicesAndPrices.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Home/Social.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Home/Social.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/Nails-Salon.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/ref/Nails-Salon.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/bin/Debug/net5.0/ref/Nails-Salon.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Nails-Salon.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Account/PersonalArea.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Account/PersonalArea.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/ClientsCard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/ClientsCard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Contacts.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Contacts.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Products.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Products.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/PurchasesList.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/PurchasesList.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/ServicesAndPrices.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/ServicesAndPrices.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Social.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Home/Social.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/ref/Nails-Salon.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/ref/Nails-Salon.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/staticwebassets/Nails-Salon.StaticWebAssets.Manifest.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/staticwebassets/Nails-Salon.StaticWebAssets.Manifest.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/staticwebassets/Nails-Salon.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Debug/net5.0/staticwebassets/Nails-Salon.StaticWebAssets.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Nails-Salon.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Nails-Salon.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/Nails-Salon.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/Nails-Salon.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nails-Salon/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Nails-Salon/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +71,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Nails-Salon/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3197D3C5-755D-48B7-81A5-707D125A067B/d2/34233a0e/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Nails-Salon/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3197D3C5-755D-48B7-81A5-707D125A067B/f1/fa19b63d/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D444921F-3AC5-4C8B-94A7-CC100E64B437/a6/2a29f881/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3197D3C5-755D-48B7-81A5-707D125A067B/11A/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -107,14 +85,9 @@
       <option value="$PROJECT_DIR$/Nails-Salon/wwwroot/css/site.css" />
       <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Contacts.cshtml" />
       <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/ClientsCard.cshtml" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/ServicesAndPrices.cshtml" />
       <option value="$PROJECT_DIR$/Nails-Salon/wwwroot/css/ClockAnimated.css" />
       <option value="$PROJECT_DIR$/Nails-Salon/Controllers/Account.cs" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Social.cshtml" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Nails-Salon/Models/ApplicationContext.cs" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Startup.cs" />
       <option value="$PROJECT_DIR$/Nails-Salon/Models/ViewModels/RegisterViewModel.cs" />
       <option value="$PROJECT_DIR$/Nails-Salon/appsettings.json" />
       <option value="$PROJECT_DIR$/Nails-Salon/Models/User.cs" />
@@ -130,10 +103,17 @@
       <option value="$PROJECT_DIR$/Nails-Salon/Models/Purchase.cs" />
       <option value="$PROJECT_DIR$/Nails-Salon/Views/Shared/_LoginPartial.cshtml" />
       <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Products.cshtml" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/PurchasesList.cshtml" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Controllers/AccountController.cs" />
-      <option value="$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/Nails-Salon/Views/Account/PersonalArea.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Startup.cs" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/NoPurchases.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Social.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/PurchasesList.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/ServicesAndPrices.cshtml" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/Nails-Salon/wwwroot/css/PrettyIndexIcons.css" />
+      <option value="$PROJECT_DIR$/Nails-Salon/Views/Home/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qTubokJIo7ErGqlMclAf8D3slo" />
@@ -222,6 +202,8 @@
       <workItem from="1618937589358" duration="5540000" />
       <workItem from="1619267179066" duration="12235000" />
       <workItem from="1619346006919" duration="1678000" />
+      <workItem from="1620674453048" duration="140000" />
+      <workItem from="1621083663592" duration="3923000" />
     </task>
     <task id="LOCAL-00001" summary="Main page">
       <created>1617721786702</created>
@@ -251,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618421651337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="НО СУПЕСТРЕС">
+      <created>1620669636682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620669636682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,27 +265,15 @@
     <MESSAGE value="Main page" />
     <MESSAGE value="Style changes" />
     <MESSAGE value="Add functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add functional" />
+    <MESSAGE value="НО СУПЕСТРЕС" />
+    <option name="LAST_COMMIT_MESSAGE" value="НО СУПЕСТРЕС" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs</url>
-          <line>96</line>
-          <properties documentPath="C:\Dev\Nails\Nails_Salon\Nails-Salon\Controllers\HomeController.cs" initialLine="96" containingFunctionPresentation="method 'DeletePurchase'">
-            <startOffsets>
-              <option value="2607" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2608" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Nails-Salon/Views/Home/PurchasesList.cshtml</url>
-          <line>41</line>
+          <line>43</line>
           <properties documentPath="C:\Dev\Nails\Nails_Salon\Nails-Salon\Views\Home\PurchasesList.cshtml" initialLine="41" isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>
@@ -307,6 +284,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs</url>
+          <line>85</line>
+          <properties documentPath="C:\Dev\Nails\Nails_Salon\Nails-Salon\Controllers\HomeController.cs" initialLine="85" containingFunctionPresentation="method 'PurchasesList'">
+            <startOffsets>
+              <option value="2204" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2205" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Nails-Salon/Controllers/HomeController.cs</url>
+          <line>102</line>
+          <properties documentPath="C:\Dev\Nails\Nails_Salon\Nails-Salon\Controllers\HomeController.cs" initialLine="102" containingFunctionPresentation="method 'NoPurchases'">
+            <startOffsets>
+              <option value="2741" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2742" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

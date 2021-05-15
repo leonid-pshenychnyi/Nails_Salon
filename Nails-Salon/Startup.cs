@@ -32,7 +32,13 @@ namespace Nails_Salon
             services.AddDbContext<ApplicationContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
  
-            services.AddIdentity<User, IdentityRole>()
+            services.AddIdentity<User, IdentityRole>(opts=> {
+                    opts.Password.RequiredLength = 6;   // минимальная длина
+                    opts.Password.RequireNonAlphanumeric = false;   // требуются ли не алфавитно-цифровые символы
+                    opts.Password.RequireLowercase = false; // требуются ли символы в нижнем регистре
+                    opts.Password.RequireUppercase = false; // требуются ли символы в верхнем регистре
+                    opts.Password.RequireDigit = false; // требуются ли цифры
+                })
                 .AddEntityFrameworkStores<ApplicationContext>();
                  
             services.AddControllersWithViews();

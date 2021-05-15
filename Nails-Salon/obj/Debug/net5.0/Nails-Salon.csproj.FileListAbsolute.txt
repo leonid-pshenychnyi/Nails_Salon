@@ -661,3 +661,4 @@ C:\Dev\Nails\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Nails-Salon.dll
 C:\Dev\Nails\Nails_Salon\Nails-Salon\obj\Debug\net5.0\ref\Nails-Salon.dll
 C:\Dev\Nails\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Nails-Salon.pdb
 C:\Dev\Nails\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Nails-Salon.genruntimeconfig.cache
+C:\Dev\Nails\Nails_Salon\Nails-Salon\obj\Debug\net5.0\Razor\Views\Home\NoPurchases.cshtml.g.cs

@@ -2,8 +2,12 @@
     ViewData["Title"] = "Home Page";
     Layout = "_Layout";
     <link rel="stylesheet" href="/css/ClockAnimated.css"/>
+    <link rel="stylesheet" href="/css/PrettyIndexIcons.css"/>
 }
 
+<div style="background-color: transparent; height: 50px">
+    
+</div>
 <div class="container">
 <div class="row" style="margin-top: 100px">
     <div class="col-8">
@@ -16,6 +20,7 @@
             маникюру не так уж и легко. Ведь хочется, чтобы именно ваши ручки были индивидуальны.
         </p>
     </div>
+    
     <div class="col-4" style="margin-top: 20px; font-size: 20px">
         <form>
             <div class="form-group">
@@ -32,9 +37,6 @@
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                            @*<div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            </div>*@
                             <div class="modal-body bg-dark text-white">
                                 <p style="text-align: center !important;" class="text-white">Ща свяжемся хуила</p>
                                 <p class="container" style="justify-content: center; align-items: center;">
@@ -70,60 +72,99 @@
 </div>
 <div class="row" style="margin-top: 30px">
     @*Row 1*@
-    <div class="col-3">
-        <img src="images/5.jpg.png">
+    <div class="col">
+        <div class="blog-card">
+            <div class="meta" style="height: 300px">
+                <div class="photo" style="background-image: url(/images/5.jpg.png)"></div>
+                <ul class="details">
+                             <li class="author"><a href="#">John Doe</a></li>
+                             <li class="date">Aug. 24, 2015</li>
+                             <li class="tags">
+                               <ul>
+                                 <li><a href="#">Learn</a></li>
+                                 <li><a href="#">Code</a></li>
+                                 <li><a href="#">HTML</a></li>
+                                 <li><a href="#">CSS</a></li>
+                               </ul>
+                             </li>
+                           </ul>
+                         </div>
+                         <div class="description">
+                           <h1>Learning to Code</h1>
+                           <h2>Opening a door to the future</h2>
+                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                           <p class="read-more">
+                             <a href="#">Read More</a>
+                           </p>
+                         </div>
+            </div>
+        </div>
     </div>
     <div class="col">
         @*Space*@
-    </div>
-    <div class="col-8">
-        <h2 class="text-white">Маникюр</h2>
-        <p style="text-align: left; color: white; font-family: DefaultFont, serif !important; font-size: 22px">
-            Забота о руках и ногтях - это залог сильных и красивых ногтей. Можно выполнять определенные процедуры самостоятельно,
-            но многие предпочитают обращаться к специалистам. От правильно проведенных манипуляций будет зависеть конечный результат.
-            Различают два способа подготовки и проведения маникюра: гигиенический маникюр и декоративный маникюр.
-            При этом, гигиенический маникюр послужит основой для качественного декоративного.
-        </p>
     </div>
 </div>
 
 <div class="row" style="margin-top: 50px">
     @*Row 2*@
-    <div class="col-8">
-        <h2 style="text-align: right" class="text-white">Педикюр</h2>
-        <p style="text-align: left; color: white; font-family: DefaultFont, serif !important; font-size: 22px">
-            Ухоженные стопы и пальцы ног - это красивые и здоровые ноги. Безусловно,
-            лучший уход - профессиональный. Домашний педикюр - отлично справляется
-            с функцией поддержки ухоженного вида, но для того, чтобы раз в месяц навести
-            “генеральный марафет” ног, все таки, лучше обратиться к специалисту и сделать
-            профессиональный педикюр.
-        </p>
-    </div>
-    <div class="col-3">
-        <img src="images/3.jpg.png">
-    </div>
-    <div class="col" style="width: 500px; height: 500px; background-color: transparent"></div>
-</div>
-<div class="row" style="margin-top: -150px">
-    @* Row 3 *@
-    <div class="col-3">
-        <img src="images/15.png">
-    </div>
     <div class="col">
-        @*Space*@
-    </div>
-    <div class="col-8">
-        <h2 class="text-white">Покрытие гель-лаком</h2>
-        <p style="text-align: left; color: white; font-family: DefaultFont, serif !important; font-size: 22px">
-            Наносится оно как обычный лак, но сохраняет стойкость гелевого покрытия.
-            Суперустойчивое цветовое покрытие полюбилось женщинам тем, что держится
-            на ногтях около 3 недель. Поверхность его не скалывается, не теряет цвета
-            и свежего блеска. Снимать гель приходится из-за того, что отросшая снизу
-            часть ногтя начинает бросаться в глаза.
-        </p>
+        <div class="blog-card alt">
+                 <div class="meta" style="height: 300px">
+                   <div class="photo" style="background-image: url(/images/3.jpg.png)"></div>
+                   <ul class="details">
+                     <li class="author"><a href="#">Jane Doe</a></li>
+                     <li class="date">July. 15, 2015</li>
+                     <li class="tags">
+                       <ul>
+                         <li><a href="#">Learn</a></li>
+                         <li><a href="#">Code</a></li>
+                         <li><a href="#">JavaScript</a></li>
+                       </ul>
+                     </li>
+                   </ul>
+                 </div>
+                 <div class="description">
+                   <h1>Mastering the Language</h1>
+                   <h2>Java is not the same as JavaScript</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                   <p class="read-more">
+                     <a href="#">Read More</a>
+                   </p>
+                 </div>
+               </div>
     </div>
 </div>
-<div class="text-center container align-content-center cent">
+<div class="row" style="margin-top: 50px">
+    @* Row 3 *@
+    <div class="col">
+            <div class="blog-card">
+                <div class="meta" style="height: 300px">
+                    <div class="photo" style="background-image: url(/images/5.jpg.png)"></div>
+                    <ul class="details">
+                                 <li class="author"><a href="#">John Doe</a></li>
+                                 <li class="date">Aug. 24, 2015</li>
+                                 <li class="tags">
+                                   <ul>
+                                     <li><a href="#">Learn</a></li>
+                                     <li><a href="#">Code</a></li>
+                                     <li><a href="#">HTML</a></li>
+                                     <li><a href="#">CSS</a></li>
+                                   </ul>
+                                 </li>
+                               </ul>
+                             </div>
+                             <div class="description">
+                               <h1>Learning to Code</h1>
+                               <h2>Opening a door to the future</h2>
+                               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                               <p class="read-more">
+                                 <a href="#">Read More</a>
+                               </p>
+                             </div>
+                </div>
+            </div>
+</div>
+<div class="text-center container align-content-center cent" style="margin-top: 50px">
     <h1 style="font-family: Fulbo, serif !important;" class="text-white">Почему мы?</h1>
     <p style="font-family: DefaultFont, serif !important; margin-top: -10px;font-size: 20px" class="text-white">С нами вы получите не только желаймый результат, но и многое другое!</p>
     <div class="row justify-content-md-center">
